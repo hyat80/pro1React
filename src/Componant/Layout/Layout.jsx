@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <>
     <Nav/>
-    <div className="container py-8 mx-auto">
+    <div className=" mx-auto">
     <Outlet></Outlet>
     </div>
     <Footer/>
